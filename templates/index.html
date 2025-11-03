@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SSL Implemented Successfully</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #001f3f, #0074D9);
+      color: white;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      text-align: center;
+      overflow: hidden;
+    }
+    .lock {
+      font-size: 80px;
+      animation: glow 1.5s infinite alternate;
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #39CCCC; }
+      to { text-shadow: 0 0 30px #7FDBFF; }
+    }
+    h1 {
+      font-size: 2em;
+      margin-top: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    footer {
+      position: absolute;
+      bottom: 10px;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+    a {
+      color: #7FDBFF;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 20px;
+      display: inline-block;
+      transition: 0.3s;
+    }
+    a:hover {
+      transform: scale(1.1);
+      color: #39CCCC;
+    }
+  </style>
+</head>
+<body>
+  <div class="lock">🔒</div>
+  <h1>SSL IMPLEMENTED SUCCESSFULLY!</h1>
+  <p>This website runs securely using HTTPS.</p>
+  <a href="https://letsencrypt.org" target="_blank">Learn More About SSL</a>
+  <footer>Developed by Team 3 — CMR Institute of Technology</footer>
+</body>
+</html>
